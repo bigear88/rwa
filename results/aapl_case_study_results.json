@@ -1,0 +1,44 @@
+[
+    {
+        "vulnerability_type": "Reentrancy",
+        "severity": "Critical",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": false
+    },
+    {
+        "vulnerability_type": "Oracle Manipulation",
+        "severity": "Critical",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": false
+    },
+    {
+        "vulnerability_type": "Compliance Violation (KYC/AML)",
+        "severity": "Critical",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": false
+    },
+    {
+        "vulnerability_type": "Access Control",
+        "severity": "High",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": true
+    },
+    {
+        "vulnerability_type": "Precision Loss",
+        "severity": "High",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": true
+    },
+    {
+        "vulnerability_type": "Missing Events",
+        "severity": "Low",
+        "count": 1,
+        "detected_by_framework": true,
+        "detected_by_traditional": true
+    }
+]
