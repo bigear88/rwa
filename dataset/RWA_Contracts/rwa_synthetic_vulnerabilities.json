@@ -1,0 +1,16 @@
+[
+    {
+        "contract_name": "AAPL_Vulnerable.sol",
+        "vulnerability_type": "RWA_ORACLE_MANIPULATION",
+        "line_number": "83",
+        "description": "Missing check for stale price feed data in getEthUsdPrice and getAaplUsdPrice, which can lead to oracle manipulation and incorrect collateral valuation.",
+        "severity": "Critical"
+    },
+    {
+        "contract_name": "AAPL_Vulnerable.sol",
+        "vulnerability_type": "REENTRANCY_UNCLEAN_CALL",
+        "line_number": "131",
+        "description": "External call to msg.sender is performed after state changes (s_aaplMintedPerUser, s_ethCollateralPerUser, _burn) without a reentrancy guard, potentially allowing a reentrancy attack.",
+        "severity": "High"
+    }
+]
