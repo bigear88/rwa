@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title FPC1301.sol (Tokenisation of Formosa Plastics - 1301)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 大型股

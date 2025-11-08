@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title YMM2615.sol (Tokenisation of Yang Ming Marine - 2615)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 高波動產業

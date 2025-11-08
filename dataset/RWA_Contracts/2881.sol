@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title Fubon2881.sol (Tokenisation of Fubon Financial - 2881)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 金融股

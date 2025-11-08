@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title HHPC2317.sol (Tokenisation of Hon Hai Precision - 2317)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 大型股

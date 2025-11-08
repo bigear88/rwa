@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title LARGAN3406.sol (Tokenisation of Largan Precision - 3406)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 中型股

@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title TWM3045.sol (Tokenisation of Taiwan Mobile - 3045)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 小型股

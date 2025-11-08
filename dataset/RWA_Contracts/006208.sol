@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title YT50006208.sol (Tokenisation of Yuanta Taiwan 50 - 006208)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: ETF

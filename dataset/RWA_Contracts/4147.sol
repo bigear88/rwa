@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title TAIMED4147.sol (Tokenisation of Taimed Biologics - 4147)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 高波動產業

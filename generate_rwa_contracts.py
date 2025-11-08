@@ -66,7 +66,7 @@ interface AggregatorV3Interface {{
 
 /**
  * @title {symbol}{code}.sol (Tokenisation of {name} - {code})
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: {type}

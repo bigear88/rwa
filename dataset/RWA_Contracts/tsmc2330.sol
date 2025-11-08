@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title TSMC2330.sol (Tokenisation of Taiwan Semiconductor - 2330)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev This token represents a share of TSMC (2330).
  * It is a simple RWA token pegged to the stock's price via an Oracle.

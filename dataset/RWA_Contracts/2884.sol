@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title Mega2884.sol (Tokenisation of Mega Financial - 2884)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 金融股

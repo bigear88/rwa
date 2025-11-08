@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title DELTA2308.sol (Tokenisation of Delta Electronics - 2308)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 中型股

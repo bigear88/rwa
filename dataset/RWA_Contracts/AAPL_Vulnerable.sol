@@ -6,7 +6,7 @@ import {OracleLib, AggregatorV3Interface} from "../libraries/OracleLib.sol"; // 
 
 /**
  * @title AAPL_Vulnerable.sol (Tokenisation of Apple shares with a vulnerability)
- * @author Prathmesh Ranjan (Modified by Manus AI for RWA-specific vulnerability simulation)
+ * @author Prathmesh Ranjan (Modified by RWA 實驗室 for RWA-specific vulnerability simulation)
  *
  * @dev This contract simulates a critical RWA-specific vulnerability:
  *      A lack of re-entrancy guard on a function that handles external calls (simulated here by the liquidate function)

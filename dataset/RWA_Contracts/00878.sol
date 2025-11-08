@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title CATHS00878.sol (Tokenisation of Cathay Sustainable - 00878)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: ETF

@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title MTK2454.sol (Tokenisation of MediaTek - 2454)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 大型股

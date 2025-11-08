@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title CATCH6116.sol (Tokenisation of Catcher Technology - 6116)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 小型股

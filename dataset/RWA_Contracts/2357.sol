@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title ASUS2357.sol (Tokenisation of ASUS - 2357)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 中型股

@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title CTBC2891.sol (Tokenisation of CTBC Financial - 2891)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 金融股

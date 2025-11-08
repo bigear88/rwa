@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title EMC2603.sol (Tokenisation of Evergreen Marine - 2603)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 高波動產業

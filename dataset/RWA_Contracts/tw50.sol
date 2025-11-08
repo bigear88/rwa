@@ -19,7 +19,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title TW50.sol (Tokenisation of Taiwan 50 ETF - 0050)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev This token represents a share of the Taiwan 50 ETF (0050).
  * It is a simple RWA token pegged to the ETF's price via an Oracle.

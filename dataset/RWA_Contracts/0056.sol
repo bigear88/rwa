@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title FBDV0056.sol (Tokenisation of Fubon Taiwan Dividend - 0056)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: ETF

@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title NVTK3034.sol (Tokenisation of Novatek - 3034)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 中型股

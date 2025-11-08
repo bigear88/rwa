@@ -107,7 +107,7 @@ def generate_summary_report(path, df_performance, aapl_data):
 對於一個中等複雜度（約 200 行程式碼）的智能合約，本框架完成一次包含多模態分析的完整檢核，平均耗時約 **0.45 秒**。
 
 ---
-*生成時間：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
+ *生成時間：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
 """
     with open(path, 'w', encoding='utf-8') as f:
         f.write(report_content)

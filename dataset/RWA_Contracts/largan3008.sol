@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title LARGAN3008.sol (Tokenisation of Largan Precision - 3008)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev This token represents a share of Largan Precision (3008).
  * It is a simple RWA token pegged to the stock's price via an Oracle.

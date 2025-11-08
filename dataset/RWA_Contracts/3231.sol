@@ -18,7 +18,7 @@ interface AggregatorV3Interface {
 
 /**
  * @title WIST3231.sol (Tokenisation of Wistron - 3231)
- * @author Manus AI
+ * @author RWA 實驗室
  *
  * @dev RWA Configuration:
  * - Type: 小型股
