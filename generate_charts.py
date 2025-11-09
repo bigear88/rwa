@@ -1,7 +1,13 @@
+import matplotlib
+matplotlib.use('Agg')  # 使用非交互式後端
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import os
+
+# 配置中文字體
+plt.rcParams['font.sans-serif'] = ['WenQuanYi Zen Hei', 'DejaVu Sans']
+plt.rcParams['axes.unicode_minus'] = False  # 解決負號顯示問題
 
 # 確保結果目錄存在
 RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
@@ -28,14 +34,14 @@ def generate_f1_score_chart():
         plt.text(bar.get_x() + bar.get_width()/2, yval + 0.01, round(yval, 3), ha='center', va='bottom')
 
     plt.ylim(0.0, 0.9)
-    plt.title("圖二：不同安全檢測方法的 F1 分數對比", fontproperties='SimHei')
-    plt.ylabel("F1 分數", fontproperties='SimHei')
-    plt.xlabel("檢測方法", fontproperties='SimHei')
+    plt.title("圖二：不同安全檢測方法的 F1 分數對比")
+    plt.ylabel("F1 分數")
+    plt.xlabel("檢測方法")
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     
     # 儲存圖片
     chart_path = os.path.join(RESULTS_DIR, "Figure_2_F1_Score_Comparison.png")
-    plt.savefig(chart_path)
+    plt.savefig(chart_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"Generated chart: {chart_path}")
     return chart_path
@@ -59,11 +65,11 @@ def generate_processing_time_chart():
     
     ax1.plot(contract_sizes, framework_time, marker='o', label='本框架 (處理時間)', color='blue')
     ax1.plot(contract_sizes, slither_time, marker='s', label='Slither (處理時間)', color='green')
-    ax1.set_xlabel("合約規模 (行數)", fontproperties='SimHei')
-    ax1.set_ylabel("平均處理時間 (秒)", color='blue', fontproperties='SimHei')
+    ax1.set_xlabel("合約規模 (行數)")
+    ax1.set_ylabel("平均處理時間 (秒)", color='blue')
     ax1.tick_params(axis='y', labelcolor='blue')
     ax1.grid(axis='y', linestyle='--', alpha=0.5)
-    ax1.legend(loc='upper left', prop={'family':'SimHei'})
+    ax1.legend(loc='upper left')
     
     # 繪圖 - 吞吐量 (右軸)
     ax2 = ax1.twinx()
@@ -71,31 +77,21 @@ def generate_processing_time_chart():
     x_pos = [200, 400, 600] # 錯開位置
     
     bars = ax2.bar(x_pos, throughput, bar_width, alpha=0.6, color='red', label='吞吐量 (合約/小時)')
-    ax2.set_ylabel("吞吐量 (合約/小時)", color='red', fontproperties='SimHei')
+    ax2.set_ylabel("吞吐量 (合約/小時)", color='red')
     ax2.tick_params(axis='y', labelcolor='red')
     ax2.set_xticks(x_pos)
-    ax2.set_xticklabels(methods, fontproperties='SimHei')
-    ax2.legend(loc='upper right', prop={'family':'SimHei'})
+    ax2.set_xticklabels(methods)
+    ax2.legend(loc='upper right')
     
-    plt.title("圖四：不同規模合約的處理時間與不同方法的吞吐量對比", fontproperties='SimHei')
+    plt.title("圖四：不同規模合約的處理時間與不同方法的吞吐量對比")
     
     # 儲存圖片
     chart_path = os.path.join(RESULTS_DIR, "Figure_4_Processing_Time_Throughput.png")
-    plt.savefig(chart_path)
+    plt.savefig(chart_path, dpi=150, bbox_inches='tight')
     plt.close()
     print(f"Generated chart: {chart_path}")
     return chart_path
 
 if __name__ == "__main__":
-    # 檢查是否安裝了 SimHei 字體 (用於中文顯示)
-    try:
-        from matplotlib.font_manager import FontProperties
-        FontProperties(fname='/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc')
-    except:
-        print("Warning: SimHei font not found. Charts may not display Chinese characters correctly.")
-        # Fallback to default font
-        plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
-        plt.rcParams['axes.unicode_minus'] = False
-
     generate_f1_score_chart()
     generate_processing_time_chart()
